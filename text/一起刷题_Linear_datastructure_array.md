@@ -68,3 +68,54 @@
 ###  4. 在实现中要注意的代码细节
 
 ###  5. 时间空间复杂度
+
+
+# Easy: 53. Maximum Subarray
+题目链接：https://leetcode.com/problems/maximum-subarray/
+### 1. 用到了什么算法
+
+### 2. 看到什么条件想到的算法
+
+###  3. 不同解法分别怎么做的
+
+###  4. 在实现中要注意的代码细节
+
+###  5. 时间空间复杂度
+
+# Medium1: 31. Next Permutation
+题目链接：https://leetcode.com/problems/next-permutation/
+### 1. 用到了什么算法
+
+### 2. 看到什么条件想到的算法
+
+###  3. 不同解法分别怎么做的
+
+###  4. 在实现中要注意的代码细节
+
+###  5. 时间空间复杂度
+
+# Medium2: 560. Subarray Sum Equals K
+题目链接：https://leetcode.com/problems/subarray-sum-equals-k/
+### 1. 用到了什么算法
+
+### 2. 看到什么条件想到的算法
+
+###  3. 不同解法分别怎么做的
+
+###  4. 在实现中要注意的代码细节
+
+###  5. 时间空间复杂度
+
+
+# Hard: 4. Median of Two Sorted Arrays
+题目链接：https://leetcode.com/problems/median-of-two-sorted-arrays/
+### 1. 用到了什么算法
+
+### 2. 看到什么条件想到的算法
+
+###  3. 不同解法分别怎么做的
+
+###  4. 在实现中要注意的代码细节
+
+###  5. 时间空间复杂度
+
