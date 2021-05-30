@@ -5,14 +5,15 @@ leetcode 题
 https://leetcode.com/problems/grid-illumination/
 
 ## 印象最深的是三点：
-1.面试者首先问 n 的范围，再问 lamps 是否有重复的坐标。很快想到了要用 hash 去重，并且想到了不能在循环过程中改变 hashset 的 value，要另外开辟一个 hashset 作为判断灯是否被关掉了。
+1. 面试者首先问 n 的范围，再问 lamps 是否有重复的坐标。很快想到了要用 hash 去重，并且想到了不能在循环过程中改变 hashset 的 value，要另外开辟一个 hashset 作为判断灯是否被关掉了。
 
 2. hash作为缓存，对 Java 而言，list是一个内存地址，不能用作 key。面试者很快就想到了用 x * n + y 的计算作为 key，
 反向求 x和 y的计算也很简单。
+```
 x = key // n
 y = key - x
-
-3.面试官问道，如果 lamps 很大，该如何优化？
+```
+3. 面试官问道，如果 lamps 很大，该如何优化？
 面试者先想到了，用 n 大小的两个向量，存行和列的 lamps 的数量。然后再去想该怎么存对角线的 lamps 数量。
 这时，面试官提示，假设给定 (x, y)，如何知道它处于那条对角线？
 然后面试官给了一个具体的例子
