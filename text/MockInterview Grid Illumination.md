@@ -91,3 +91,10 @@ class Solution:
     def isIlluminated(self, count_row: List[int], count_col: List[int], count_rdiag: List[int], count_ldiag: List[int], r: int, c: int, n: int) -> bool:
         return count_row.get(r, 0) or count_col.get(c, 0) or count_rdiag.get(r + c, 0) or count_ldiag.get(r + n - 1 - c, 0)
 ```
+
+## 时空复杂度
+时间复杂度：O(n+len(query))
+空间复杂度：O(n+len(query))，len(query) 对应于 result
+
+## Follow up
+如果是多个客户端同时发送 queries，那么该如何做？
